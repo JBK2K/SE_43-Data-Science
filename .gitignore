@@ -1,6 +1,6 @@
 
 # Ignore CSV output files
-output.csv
+# output.csv
 sorted_output.csv
 
 # Ignore virtual environment directory
