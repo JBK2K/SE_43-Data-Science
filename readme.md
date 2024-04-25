@@ -27,31 +27,11 @@ This project consists of data scraping, sorting, and visualization scripts.
 
 ## Usage
 
-1. **Scrape Data:**  
-   Run the scraper script to scrape data from the source.
+<!-- run app.py -->
+Run the main script to scrape data from the web, sort it, and visualize it.
 
-   ```bash
-   python3 scripts/scraper.py
-   ```
+```bash
+python app.py
+```
 
-2. **Sort Data:**  
-   Run the sorting script to sort the scraped data.
 
-   ```bash
-   python3 scripts/sort.py
-   ```
-
-3. **Visualize Data:**  
-   Run the plotting script to visualize the sorted data.
-
-   ```bash
-   python3 scripts/plot.py
-   ```
-
-4. **Deactivate Virtual Environment:**  
-   When you're done, deactivate the virtual environment.
-
-   ```bash
-   deactivate
-   ```
-# SE_43-Data-Science
