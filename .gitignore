@@ -1,0 +1,14 @@
+
+# Ignore CSV output files
+output.csv
+sorted_output.csv
+
+# Ignore virtual environment directory
+myenv/
+
+# Ignore compiled Python files
+*.pyc
+
+# ignore scripts/berlin.py
+scripts/berlin.py
+
