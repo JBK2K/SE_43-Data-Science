@@ -1,0 +1,186 @@
+2024-04-26 15:16:59,542 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:17:04,318 DEBUG:https://www.boerse.de:443 "GET /hebelzertifikate/short/Rheinmetall-Aktie/DE0007030009 HTTP/1.1" 200 None
+2024-04-26 15:17:04,550 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:17:11,393 DEBUG:https://www.boerse.de:443 "GET /hebelzertifikate/short/Rheinmetall-Aktie/DE0007030009 HTTP/1.1" 200 None
+2024-04-26 15:17:11,404 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:17:15,774 DEBUG:https://www.boerse.de:443 "GET /hebelzertifikate/short/Rheinmetall-Aktie/DE0007030009 HTTP/1.1" 200 None
+2024-04-26 15:17:16,050 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:17:21,090 DEBUG:https://www.boerse.de:443 "GET /hebelzertifikate/short/Rheinmetall-Aktie/DE0007030009 HTTP/1.1" 200 None
+2024-04-26 15:17:21,132 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:17:21,434 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:17:21,469 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:17:21,538 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:17:22,613 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:17:22,639 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:17:22,709 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:17:23,093 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:17:23,119 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:17:23,189 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:17:23,531 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:17:23,557 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:17:23,628 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:17:23,946 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:17:23,971 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:17:24,051 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:17:24,434 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:17:24,461 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:17:24,530 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:17:24,877 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:17:24,901 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:17:24,979 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:17:25,323 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:17:25,350 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:17:25,419 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:17:25,729 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:17:25,756 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:17:25,827 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:17:26,119 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:17:26,146 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:17:26,214 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:17:26,507 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:17:26,531 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:17:26,598 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:17:26,904 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:17:26,937 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:17:27,011 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:17:27,303 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:17:27,330 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:17:27,423 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:17:27,701 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:17:27,728 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:17:27,797 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:17:28,143 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:17:28,167 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:17:28,238 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:17:28,544 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:17:28,571 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:17:28,645 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:17:28,883 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:17:28,920 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:17:29,004 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:17:29,277 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:17:29,308 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:17:29,398 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:17:29,655 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:17:29,681 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:17:29,750 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:17:30,012 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:17:30,042 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:17:30,111 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:17:30,419 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:17:30,445 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:17:30,514 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:17:30,788 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:17:30,815 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:17:30,885 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:17:31,117 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:17:31,141 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:17:31,208 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:17:31,472 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:17:31,499 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:17:31,568 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:17:34,619 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:17:34,645 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:17:34,714 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:17:35,068 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:17:35,090 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:17:35,159 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:17:35,532 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:17:35,559 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:17:35,625 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:17:35,927 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:17:35,956 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:17:35,967 ERROR:Error processing row: ['Mit den von Ihnen ausgewählten Parametern konnten keine Werte gefunden werden.']. Error: Row has insufficient columns: ['Mit den von Ihnen ausgewählten Parametern konnten keine Werte gefunden werden.']
+2024-04-26 15:18:17,570 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:18:18,443 DEBUG:https://www.boerse.de:443 "GET /hebelzertifikate/short/Rheinmetall-Aktie/DE0007030009 HTTP/1.1" 200 None
+2024-04-26 15:18:18,675 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:18:19,862 DEBUG:https://www.boerse.de:443 "GET /hebelzertifikate/short/Rheinmetall-Aktie/DE0007030009 HTTP/1.1" 200 None
+2024-04-26 15:18:19,978 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:18:20,561 DEBUG:https://www.boerse.de:443 "GET /hebelzertifikate/short/Rheinmetall-Aktie/DE0007030009 HTTP/1.1" 200 None
+2024-04-26 15:18:20,816 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:18:21,419 DEBUG:https://www.boerse.de:443 "GET /hebelzertifikate/short/Rheinmetall-Aktie/DE0007030009 HTTP/1.1" 200 None
+2024-04-26 15:18:21,429 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:18:22,685 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:18:22,726 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:18:22,816 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:18:23,095 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:18:23,120 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:18:23,192 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:18:23,437 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:18:23,463 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:18:23,535 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:18:23,780 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:18:23,808 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:18:23,888 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:18:24,134 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:18:24,159 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:18:24,230 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:18:24,541 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:18:24,568 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:18:24,638 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:18:24,936 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:18:24,960 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:18:25,028 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:18:25,292 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:18:25,320 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:18:25,390 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:18:25,643 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:18:25,671 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:18:25,741 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:18:26,028 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:18:26,055 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:18:26,123 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:18:26,397 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:18:26,421 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:18:26,490 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:18:26,760 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:18:26,791 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:18:26,864 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:18:27,163 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:18:27,189 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:18:27,283 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:18:28,584 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:18:28,611 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:18:28,681 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:18:28,972 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:18:28,996 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:18:29,063 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:18:29,375 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:18:29,403 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:18:29,473 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:18:29,809 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:18:29,836 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:18:29,907 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:18:30,215 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:18:30,241 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:18:30,310 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:18:30,611 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:18:30,638 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:18:30,707 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:18:31,021 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:18:31,048 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:18:31,118 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:18:31,446 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:18:31,473 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:18:31,542 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:18:31,815 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:18:31,842 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:18:31,911 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:18:32,196 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:18:32,220 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:18:32,289 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:18:32,584 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:18:32,611 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:18:32,681 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:18:32,974 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:18:33,000 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:18:33,079 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:18:33,391 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:18:33,414 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:18:33,484 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:18:33,788 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:18:33,814 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:18:33,884 DEBUG:Starting new HTTPS connection (1): www.boerse.de:443
+2024-04-26 15:18:34,170 DEBUG:https://www.boerse.de:443 "POST /ajax/table.php HTTP/1.1" 200 None
+2024-04-26 15:18:34,200 DEBUG:Encoding detection: utf_8 is most likely the one.
+2024-04-26 15:18:34,211 ERROR:Error processing row: ['Mit den von Ihnen ausgewählten Parametern konnten keine Werte gefunden werden.']. Error: Row has insufficient columns: ['Mit den von Ihnen ausgewählten Parametern konnten keine Werte gefunden werden.']

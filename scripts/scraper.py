@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import csv
 import re
 
-urltype ='long'
+urltype ='short'
 
 # Function to scrape page information: titles, numeric value, and total pages
 def scrape_page_info():
@@ -149,28 +149,43 @@ def scrape_table_rows(page_number):
     return rows
 
 # Function to calculate Abstand, Abstand in %, and Risk/Reward for each row and write to CSV
+import logging
+
+# Setup basic logging
+logging.basicConfig(filename='scraper_errors.log', level=logging.DEBUG, 
+                    format='%(asctime)s %(levelname)s:%(message)s')
+
 def write_to_csv_with_calculations(filename, titles, rows, numeric_value):
     with open(filename, 'a', newline='', encoding='utf-8') as csvfile:
         csv_writer = csv.writer(csvfile)
         headers = titles + ['Abstand', 'Abstand in %', 'Risk/Reward']
         csv_writer.writerow(headers)  # Write headers
         for row in rows:
-            # Calculate Abstand 
-            if row[3] == 'Call':
-                abstand = numeric_value - row[9]
-            else:
-                abstand = row[9] - numeric_value
+            try:
+                # Ensure row has enough columns
+                if len(row) < 10:
+                    raise ValueError(f"Row has insufficient columns: {row}")
+                
+                call_or_put = row[3]
+                kurs = row[9]
+                
+                # Calculate Abstand
+                if call_or_put == 'Call':
+                    abstand = numeric_value - kurs
+                else:
+                    abstand = kurs - numeric_value
 
-            # Calculate Abstand in percentage
-            abstand_percentage = (abstand / numeric_value) * 100
+                # Calculate Abstand in percentage and Risk/Reward ratio
+                abstand_percentage = (abstand / numeric_value) * 100
+                hebel = row[7]
+                risk_reward = abstand / hebel
 
-            # Calculate Risk/Reward ratio
-            hebel = row[7]
-            risk_reward = abstand / hebel
-
-            # Update row with calculated values
-            row.extend([abstand, abstand_percentage, risk_reward])
-            csv_writer.writerow(row)
+                # Update row with calculated values
+                row.extend([abstand, abstand_percentage, risk_reward])
+                csv_writer.writerow(row)
+            except Exception as e:
+                # Log the error with the row data that caused it
+                logging.error(f"Error processing row: {row}. Error: {e}")
 
 # Main function to scrape and write data for multiple pages
 def scrape_multiple_pages_and_write_to_csv(total_pages):
