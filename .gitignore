@@ -12,3 +12,6 @@ myenv/
 # ignore scripts/berlin.py
 scripts/berlin.py
 
+scraper_errors.log
+
+

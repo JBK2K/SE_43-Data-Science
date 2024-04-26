@@ -43,6 +43,14 @@ def scrape_page_info():
     page_numbers = [int(num) for num in matches]
     total_pages = max(page_numbers)
 
+    # write titles here to a csv file output.csv
+    with open('output.csv', 'w', newline='', encoding='utf-8') as csvfile:
+        csv_writer = csv.writer(csvfile)
+        headers = titles + ['Abstand', 'Abstand in %', 'Risk/Reward']
+        csv_writer.writerow(headers)  # Write headers
+
+    
+
     return titles, numeric_value, total_pages
 
 # Function to scrape the table rows from a single page
@@ -158,8 +166,7 @@ logging.basicConfig(filename='scraper_errors.log', level=logging.DEBUG,
 def write_to_csv_with_calculations(filename, titles, rows, numeric_value):
     with open(filename, 'a', newline='', encoding='utf-8') as csvfile:
         csv_writer = csv.writer(csvfile)
-        headers = titles + ['Abstand', 'Abstand in %', 'Risk/Reward']
-        csv_writer.writerow(headers)  # Write headers
+        
         for row in rows:
             try:
                 # Ensure row has enough columns
@@ -167,13 +174,13 @@ def write_to_csv_with_calculations(filename, titles, rows, numeric_value):
                     raise ValueError(f"Row has insufficient columns: {row}")
                 
                 call_or_put = row[3]
-                kurs = row[9]
+                strike = row[9]
                 
                 # Calculate Abstand
                 if call_or_put == 'Call':
-                    abstand = numeric_value - kurs
+                    abstand = numeric_value - strike
                 else:
-                    abstand = kurs - numeric_value
+                    abstand = strike - numeric_value
 
                 # Calculate Abstand in percentage and Risk/Reward ratio
                 abstand_percentage = (abstand / numeric_value) * 100
