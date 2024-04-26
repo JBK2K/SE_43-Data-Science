@@ -1,26 +1,16 @@
 import subprocess
 import os
-import csv
-
-# Function to check if CSV files have data
-def check_csv_has_data(file_names):
-    for file_name in file_names:
-        if os.path.exists(file_name):
-            with open(file_name, 'r', newline='', encoding='utf-8') as csvfile:
-                csv_reader = csv.reader(csvfile)
-                if any(row for row in csv_reader):
-                    return True
-    return False
+import questionary
 
 # Function to ask user whether to delete existing CSV files
 def ask_delete_csv():
-    response = input("Do you want to delete existing CSV files? (yes/no): ").lower()
-    return response == 'yes'
+    response = questionary.confirm("Do you want to delete existing CSV files?").ask()
+    return response
 
 # Function to ask user whether to plot
 def ask_plot():
-    response = input("Do you want to plot the existing data? (yes/no): ").lower()
-    return response == 'yes'
+    response = questionary.confirm("Do you want to plot the existing data?").ask()
+    return response
 
 # Main function to run the script
 def main():
