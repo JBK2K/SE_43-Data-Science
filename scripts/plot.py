@@ -34,9 +34,9 @@ for i, txt in enumerate(wkn):
     plt.annotate(txt, (abstand[i], hebel[i]), xytext=(5, -5), textcoords='offset points')
 
 # Set labels and title
-plt.xlabel('Abstand in % vom Totalverlust')
-plt.ylabel('Hebel x')
-plt.title('Abstand vs Hebel for Derivatives (Color Encoded by Risk-Reward Ratio)')
+plt.xlabel('Distance in % to Strike Price')
+plt.ylabel('Leverage x')
+plt.title('Distance / Hebel for Derivatives (Color Encoded by Risk-Reward Ratio)')
 
 # Set axis limits based on minimum and maximum values
 plt.xlim(min(abstand), max(abstand))

@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import csv
 import re
 
-urltype ='short'
+urltype ='long'
 
 # Function to scrape page information: titles, numeric value, and total pages
 def scrape_page_info():
@@ -155,7 +155,7 @@ def write_to_csv_with_calculations(filename, titles, rows, numeric_value):
         headers = titles + ['Abstand', 'Abstand in %', 'Risk/Reward']
         csv_writer.writerow(headers)  # Write headers
         for row in rows:
-            # Calculate Abstand
+            # Calculate Abstand 
             if row[3] == 'Call':
                 abstand = numeric_value - row[9]
             else:
