@@ -6,6 +6,8 @@ sorted_output.csv
 # Ignore virtual environment directory
 myenv/
 
+localenv/
+
 # Ignore compiled Python files
 *.pyc
 
