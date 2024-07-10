@@ -8,6 +8,9 @@ myenv/
 
 localenv/
 
+#ignore localenv
+localenv/
+
 # Ignore compiled Python files
 *.pyc
 
