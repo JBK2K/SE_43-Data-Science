@@ -22,21 +22,27 @@ with open('output.csv', 'r', newline='', encoding='utf-8') as csvfile:
 
 # Print data types of abstand and hebel lists
 print("Data types:")
-print("Abstand:", type(abstand[0]))
-print("Hebel:", type(hebel[0]))
+print("Distance:", type(abstand[0]))
+print("Leverage:", type(hebel[0]))
 
 # Plot
 plt.figure(figsize=(10, 6))
-scatter = plt.scatter(abstand, hebel, c=risk_reward, cmap='viridis', marker='o')
+scatter = plt.scatter(abstand, hebel, c=risk_reward, cmap='viridis', marker='o', s=12, alpha=0.9)
 
 # Annotate points with WKN
 for i, txt in enumerate(wkn):
-    plt.annotate(txt, (abstand[i], hebel[i]), xytext=(5, -5), textcoords='offset points')
+    plt.annotate(txt, (abstand[i], hebel[i]), xytext=(5, -5), textcoords='offset points', fontsize=4, alpha=0.8, color='black')
+
+#
+# Annotate points with WKN
+#for i, txt in enumerate(wkn):
+#    plt.annotate(txt, (abstand[i], hebel[i]), xytext=(5, -5), textcoords='offset points')
+
 
 # Set labels and title
-plt.xlabel('Distance in % to Strike Price')
+plt.xlabel('Distance in % to Strike Price (Total Loss!)')
 plt.ylabel('Leverage x')
-plt.title('Distance / Hebel for Derivatives (Color Encoded by Risk-Reward Ratio)')
+plt.title('Index: Distance / Leverage for Derivatives (Color Encoded by Risk-Reward Ratio)')
 
 # Set axis limits based on minimum and maximum values
 plt.xlim(min(abstand), max(abstand))
