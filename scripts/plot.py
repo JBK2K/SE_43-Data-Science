@@ -27,11 +27,11 @@ print("Leverage:", type(hebel[0]))
 
 # Plot
 plt.figure(figsize=(10, 6))
-scatter = plt.scatter(abstand, hebel, c=risk_reward, cmap='viridis', marker='o', s=12, alpha=0.9)
+scatter = plt.scatter(abstand, hebel, c=risk_reward, cmap='viridis', marker='o', s=5, alpha=0.9)
 
 # Annotate points with WKN
 for i, txt in enumerate(wkn):
-    plt.annotate(txt, (abstand[i], hebel[i]), xytext=(5, -5), textcoords='offset points', fontsize=4, alpha=0.8, color='black')
+    plt.annotate(txt, (abstand[i], hebel[i]), xytext=(5, -5), textcoords='offset points', fontsize=6, alpha=0.8, color='black')
 
 #
 # Annotate points with WKN
